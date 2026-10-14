@@ -1,5 +1,5 @@
 <!-- Header banner -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=FF4FA3&height=160&section=header&text=Hi,%20I'm%20Éléa%20&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=50" width="100%"/>
+<img src="./banner.svg" alt="Hi, I'm Éléa" width="100%"/>
 
 <div align="center">
 
