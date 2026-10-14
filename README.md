@@ -26,10 +26,27 @@
 
 <div align="center">
 
-![Java](https://img.shields.io/badge/Java-F472B6?style=for-the-badge&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-14B8A6?style=for-the-badge&logo=typescript&logoColor=white)
+**Languages**
+
 ![C](https://img.shields.io/badge/C-F472B6?style=for-the-badge&logo=c&logoColor=white)
-![Git](https://img.shields.io/badge/Git-14B8A6?style=for-the-badge&logo=git&logoColor=white)
+![Java](https://img.shields.io/badge/Java-14B8A6?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-F472B6?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-14B8A6?style=for-the-badge&logo=javascript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-F472B6?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-14B8A6?style=for-the-badge&logo=html5&logoColor=white)
+
+**Frameworks & databases**
+
+![React](https://img.shields.io/badge/React-F472B6?style=for-the-badge&logo=react&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14B8A6?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Tools**
+
+![VS Code](https://img.shields.io/badge/VS%20Code-F472B6?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-14B8A6?style=for-the-badge&logo=intellijidea&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F472B6?style=for-the-badge&logo=git&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-14B8A6?style=for-the-badge&logo=gitlab&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-F472B6?style=for-the-badge&logo=wordpress&logoColor=white)
 
 </div>
 
