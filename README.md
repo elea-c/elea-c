@@ -4,11 +4,10 @@
 <div align="center">
 
 <!-- Typing animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=F472B6&center=true&vCenter=true&width=600&lines=Software+Engineering+Student;Avionics+enthusiast;Promoting+financial+literacy;Always+learning+something+new" alt="Software engineering student, avionics enthusiast, promoting financial literacy" />
-
-<a href="https://www.linkedin.com/in/%C3%A9l%C3%A9a-charier-477b81328/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-00D1C1?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+<p>
+  <a href="https://www.linkedin.com/in/%C3%A9l%C3%A9a-charier-477b81328/"><img align="right" src="https://img.shields.io/badge/LinkedIn-Connect-00D1C1?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=F472B6&vCenter=true&width=450&height=30&lines=Software+Engineering+Student;Avionics+enthusiast;Promoting+financial+literacy;Always+learning+something+new" alt="Software engineering student, avionics enthusiast, promoting financial literacy" />
+</p>
 
 </div>
 
@@ -19,8 +18,6 @@
 - Software engineering student
 - Curious about anything related to **avionics**
 - Special interest for **finance**, promoting financial literacy and how tech works for it
-- Building both my technical and soft skills, one project at a time
-- Ask me about Java, TypeScript, C, or anything that flies
 
 ### Languages & tools
 
