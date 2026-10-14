@@ -54,6 +54,8 @@
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/elea-c/elea-c/output/contributions.svg" alt="Contribution chart" width="100%" />
+
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=elea-c&show_icons=true&hide_border=true&bg_color=0d1117&title_color=F472B6&icon_color=14B8A6&text_color=E2E8F0&rank_icon=github" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elea-c&layout=compact&hide_border=true&bg_color=0d1117&title_color=F472B6&text_color=E2E8F0" />
 
