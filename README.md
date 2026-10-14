@@ -15,15 +15,15 @@
 
 ---
 
-### 🌸 About me
+### About me 🌸
 
-- 🎓 Software engineering student
-- ✈️ Fascinated by **avionics**, the software that keeps aircraft flying
-- 📈 Exploring the world of **finance** and how tech shapes it
-- 🌱 Building both my technical and soft skills, one project at a time
-- 💬 Ask me about Java, TypeScript, C, or anything that flies
+- Software engineering student
+- Curious about anything related to **avionics**
+- Special interest for **finance**, promoting financial literacy and how tech works for it
+- Building both my technical and soft skills, one project at a time
+- Ask me about Java, TypeScript, C, or anything that flies
 
-### 🛠️ Languages & tools
+### Languages & tools
 
 <div align="center">
 
@@ -34,7 +34,7 @@
 
 </div>
 
-### 📊 GitHub stats
+### GitHub stats
 
 <div align="center">
 
