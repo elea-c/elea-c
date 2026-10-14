@@ -1,15 +1,17 @@
 <!-- Header banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F472B6,100:14B8A6&height=180&section=header&text=Hi,%20I'm%20Éléa%20✨&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F472B6,100:14B8A6&height=180&section=header&text=Hi,%20I'm%20Éléa%20&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
 
 <div align="center">
 
 <!-- Typing animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=F472B6&center=true&vCenter=true&width=600&lines=Software+Engineering+Student+💻;Avionics+enthusiast+✈️;Curious+about+Finance+📈;Always+learning+something+new+🌱" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=F472B6&center=true&vCenter=true&width=600&lines=Software+Engineering+Student;Avionics+enthusiast;Promoting+financial+literacy;Always+learning+something+new" alt="Software engineering student, avionics enthusiast, promoting financial literacy" />
 
 <a href="https://www.linkedin.com/in/%C3%A9l%C3%A9a-charier-477b81328/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-14B8A6?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=elea-c&color=F472B6&style=for-the-badge&label=Profile+Views" />
+<a href="https://github.com/elea-c?tab=followers">
+  <img src="https://img.shields.io/github/followers/elea-c?style=for-the-badge&logo=github&logoColor=white&label=Followers&color=F472B6" />
+</a>
 
 </div>
 
