@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#FFB3DA"/>
+      <stop offset="45%" stop-color="#FF6FB5"/>
+      <stop offset="100%" stop-color="#FF3D9A"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#FFF6C2"/>
+      <stop offset="100%" stop-color="#FFF6C2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="titleShadow" x="-20%" y="-40%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#B0105C" flood-opacity="0.75"/>
+    </filter>
+    <path id="spark" d="M0,-10 C1.2,-1.2 1.2,-1.2 10,0 C1.2,1.2 1.2,1.2 0,10 C-1.2,1.2 -1.2,1.2 -10,0 C-1.2,-1.2 -1.2,-1.2 0,-10Z"/>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="280" fill="url(#sky)"/>
+
+  <!-- Crescent moon -->
+  <circle cx="1080" cy="62" r="60" fill="url(#moonGlow)" opacity="0.6"/>
+  <path d="M1094,30 A34,34 0 1,0 1094,94 A27,27 0 1,1 1094,30Z" fill="#FFFBEA" filter="url(#softGlow)"/>
+
+  <!-- Tiny background stars -->
+  <g fill="#FFFFFF">
+    <circle cx="60" cy="40" r="1.6"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="90" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="30" r="1.8"><animate attributeName="opacity" values="1;0.3;1" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="70" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="560" cy="25" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="55" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="830" cy="28" r="1.7"><animate attributeName="opacity" values="1;0.3;1" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="110" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="140" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="110" cy="150" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Twinkling sparkles -->
+  <g filter="url(#softGlow)">
+    <g transform="translate(140,60)"><use href="#spark" fill="#FFFFFF"><animateTransform attributeName="transform" type="scale" values="0.4;1.3;0.4" dur="2.2s" repeatCount="indefinite"/></use></g>
+    <g transform="translate(250,180)"><use href="#spark" fill="#7FFFF4"><animateTransform attributeName="transform" type="scale" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/></use></g>
+    <g transform="translate(380,40)"><use href="#spark" fill="#FFE98A"><animateTransform attributeName="transform" type="scale" values="0.5;1.1;0.5" dur="3.1s" repeatCount="indefinite"/></use></g>
+    <g transform="translate(860,70)"><use href="#spark" fill="#FFFFFF"><animateTransform attributeName="transform" type="scale" values="1.2;0.4;1.2" dur="2.5s" repeatCount="indefinite"/></use></g>
+    <g transform="translate(980,190)"><use href="#spark" fill="#7FFFF4"><animateTransform attributeName="transform" type="scale" values="0.4;1.2;0.4" dur="2.9s" repeatCount="indefinite"/></use></g>
+    <g transform="translate(60,220)"><use href="#spark" fill="#FFE98A"><animateTransform attributeName="transform" type="scale" values="0.9;0.3;0.9" dur="2.3s" repeatCount="indefinite"/></use></g>
+    <g transform="translate(640,215)"><use href="#spark" fill="#FFFFFF"><animateTransform attributeName="transform" type="scale" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></use></g>
+    <g transform="translate(1140,220)"><use href="#spark" fill="#FFFFFF"><animateTransform attributeName="transform" type="scale" values="1;0.4;1" dur="3.3s" repeatCount="indefinite"/></use></g>
+  </g>
+
+  <!-- Fairy dust trail -->
+  <g fill="#FFF6C2" filter="url(#softGlow)">
+    <circle cx="650" cy="88" r="2.4"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="690" cy="72" r="2"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="732" cy="64" r="2.6"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="775" cy="62" r="1.8"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="815" cy="66" r="2.2"><animate attributeName="opacity" values="1;0.2;1" dur="1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="710" cy="84" r="1.4"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.3s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="78" r="1.5"><animate attributeName="opacity" values="1;0.4;1" dur="1.9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Butterfly, gently floating -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 6,-10; 0,0" dur="3.2s" repeatCount="indefinite"/>
+    <g transform="translate(855,80) rotate(12)">
+      <g filter="url(#softGlow)">
+        <g>
+          <animateTransform attributeName="transform" type="scale" values="1,1; 0.35,1; 1,1" dur="0.6s" repeatCount="indefinite"/>
+          <g id="wingR">
+            <path d="M0,-2 C10,-28 38,-30 33,-8 C30,4 12,4 0,0Z" fill="#00D1C1" stroke="#FFFFFF" stroke-width="1.5"/>
+            <path d="M0,2 C16,4 28,14 20,25 C12,32 2,18 0,4Z" fill="#FFE98A" stroke="#FFFFFF" stroke-width="1.5"/>
+            <circle cx="22" cy="-14" r="3.2" fill="#FFFFFF"/>
+            <circle cx="13" cy="-7" r="1.8" fill="#FFFFFF"/>
+            <circle cx="15" cy="15" r="2" fill="#FFFFFF"/>
+          </g>
+          <use href="#wingR" transform="scale(-1,1)"/>
+        </g>
+      </g>
+      <ellipse cx="0" cy="3" rx="2.6" ry="13" fill="#8A0F4A"/>
+      <path d="M-1,-9 Q-5,-20 -10,-23 M1,-9 Q5,-20 10,-23" stroke="#8A0F4A" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+      <circle cx="-10" cy="-23" r="1.8" fill="#8A0F4A"/><circle cx="10" cy="-23" r="1.8" fill="#8A0F4A"/>
+    </g>
+  </g>
+
+  <!-- Rolling hills -->
+  <path d="M0,250 C150,215 300,235 450,228 C620,220 760,245 900,232 C1030,220 1120,230 1200,224 L1200,280 L0,280Z" fill="#E0287E"/>
+  <path d="M0,262 C200,245 380,268 600,256 C820,244 1000,266 1200,252 L1200,280 L0,280Z" fill="#C21868"/>
+
+  <!-- Toadstools -->
+  <g transform="translate(30,240.4) scale(0.8)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFE98A"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
+  <g transform="translate(80,236.0) scale(1)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#00D1C1"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
+  <g transform="translate(122,244.8) scale(0.6)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFFFFF"/><circle cx="-10" cy="-6" r="3" fill="#FF3D9A"/><circle cx="4" cy="-12" r="3.4" fill="#FF3D9A"/><circle cx="13" cy="-3" r="2.4" fill="#FF3D9A"/></g>
+  <g transform="translate(165,241.5) scale(0.75)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFE98A"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
+  <g transform="translate(225,247.0) scale(0.5)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#00D1C1"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
+  <g transform="translate(410,245.9) scale(0.55)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFFFFF"/><circle cx="-10" cy="-6" r="3" fill="#FF3D9A"/><circle cx="4" cy="-12" r="3.4" fill="#FF3D9A"/><circle cx="13" cy="-3" r="2.4" fill="#FF3D9A"/></g>
+  <g transform="translate(455,240.4) scale(0.8)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#00D1C1"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
+  <g transform="translate(495,247.0) scale(0.5)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFE98A"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
+  <g transform="translate(690,244.8) scale(0.6)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFE98A"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
+  <g transform="translate(735,239.3) scale(0.85)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFFFFF"/><circle cx="-10" cy="-6" r="3" fill="#FF3D9A"/><circle cx="4" cy="-12" r="3.4" fill="#FF3D9A"/><circle cx="13" cy="-3" r="2.4" fill="#FF3D9A"/></g>
+  <g transform="translate(775,247.0) scale(0.5)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#00D1C1"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
+  <g transform="translate(900,245.9) scale(0.55)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFFFFF"/><circle cx="-10" cy="-6" r="3" fill="#FF3D9A"/><circle cx="4" cy="-12" r="3.4" fill="#FF3D9A"/><circle cx="13" cy="-3" r="2.4" fill="#FF3D9A"/></g>
+  <g transform="translate(1015,242.6) scale(0.7)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#00D1C1"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
+  <g transform="translate(1062,245.9) scale(0.55)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFE98A"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
+  <g transform="translate(1110,232.7) scale(1.15)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#00D1C1"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
+  <g transform="translate(1165,242.6) scale(0.7)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFFFFF"/><circle cx="-10" cy="-6" r="3" fill="#FF3D9A"/><circle cx="4" cy="-12" r="3.4" fill="#FF3D9A"/><circle cx="13" cy="-3" r="2.4" fill="#FF3D9A"/></g>
+
+  <!-- Little flowers on the hills -->
+  <g fill="#FFFFFF">
+    <g transform="translate(300,238)"><circle r="3" cx="0" cy="-3"/><circle r="3" cx="3" cy="0"/><circle r="3" cx="0" cy="3"/><circle r="3" cx="-3" cy="0"/><circle r="2" fill="#FFE98A"/></g>
+    <g transform="translate(520,236)"><circle r="2.5" cx="0" cy="-2.5"/><circle r="2.5" cx="2.5" cy="0"/><circle r="2.5" cx="0" cy="2.5"/><circle r="2.5" cx="-2.5" cy="0"/><circle r="1.6" fill="#00D1C1"/></g>
+    <g transform="translate(830,244)"><circle r="3" cx="0" cy="-3"/><circle r="3" cx="3" cy="0"/><circle r="3" cx="0" cy="3"/><circle r="3" cx="-3" cy="0"/><circle r="2" fill="#FFE98A"/></g>
+    <g transform="translate(960,236)"><circle r="2.5" cx="0" cy="-2.5"/><circle r="2.5" cx="2.5" cy="0"/><circle r="2.5" cx="0" cy="2.5"/><circle r="2.5" cx="-2.5" cy="0"/><circle r="1.6" fill="#00D1C1"/></g>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="160" text-anchor="middle" font-family="'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-style="italic" font-weight="700" font-size="64" fill="#FFFFFF" filter="url(#titleShadow)">Hi, I'm Éléa</text>
+</svg>
