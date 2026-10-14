@@ -26,7 +26,9 @@
       <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#B0105C" flood-opacity="0.75"/>
     </filter>
     <path id="spark" d="M0,-10 C1.2,-1.2 1.2,-1.2 10,0 C1.2,1.2 1.2,1.2 0,10 C-1.2,1.2 -1.2,1.2 -10,0 C-1.2,-1.2 -1.2,-1.2 0,-10Z"/>
+    <clipPath id="rounded"><rect width="1200" height="280" rx="28" ry="28"/></clipPath>
   </defs>
+  <g clip-path="url(#rounded)">
 
   <!-- Sky -->
   <rect width="1200" height="280" fill="url(#sky)"/>
@@ -100,22 +102,16 @@
   <path d="M0,262 C200,245 380,268 600,256 C820,244 1000,266 1200,252 L1200,280 L0,280Z" fill="#C21868"/>
 
   <!-- Toadstools -->
-  <g transform="translate(30,240.4) scale(0.8)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFE98A"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
+  <g transform="translate(42,240.4) scale(0.8)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFE98A"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
   <g transform="translate(80,236.0) scale(1)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#00D1C1"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
   <g transform="translate(122,244.8) scale(0.6)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFFFFF"/><circle cx="-10" cy="-6" r="3" fill="#FF3D9A"/><circle cx="4" cy="-12" r="3.4" fill="#FF3D9A"/><circle cx="13" cy="-3" r="2.4" fill="#FF3D9A"/></g>
   <g transform="translate(165,241.5) scale(0.75)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFE98A"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
   <g transform="translate(225,247.0) scale(0.5)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#00D1C1"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
-  <g transform="translate(410,245.9) scale(0.55)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFFFFF"/><circle cx="-10" cy="-6" r="3" fill="#FF3D9A"/><circle cx="4" cy="-12" r="3.4" fill="#FF3D9A"/><circle cx="13" cy="-3" r="2.4" fill="#FF3D9A"/></g>
-  <g transform="translate(455,240.4) scale(0.8)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#00D1C1"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
-  <g transform="translate(495,247.0) scale(0.5)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFE98A"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
-  <g transform="translate(690,244.8) scale(0.6)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFE98A"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
-  <g transform="translate(735,239.3) scale(0.85)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFFFFF"/><circle cx="-10" cy="-6" r="3" fill="#FF3D9A"/><circle cx="4" cy="-12" r="3.4" fill="#FF3D9A"/><circle cx="13" cy="-3" r="2.4" fill="#FF3D9A"/></g>
-  <g transform="translate(775,247.0) scale(0.5)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#00D1C1"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
   <g transform="translate(900,245.9) scale(0.55)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFFFFF"/><circle cx="-10" cy="-6" r="3" fill="#FF3D9A"/><circle cx="4" cy="-12" r="3.4" fill="#FF3D9A"/><circle cx="13" cy="-3" r="2.4" fill="#FF3D9A"/></g>
   <g transform="translate(1015,242.6) scale(0.7)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#00D1C1"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
   <g transform="translate(1062,245.9) scale(0.55)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFE98A"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
   <g transform="translate(1110,232.7) scale(1.15)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#00D1C1"/><circle cx="-10" cy="-6" r="3" fill="#FFFFFF"/><circle cx="4" cy="-12" r="3.4" fill="#FFFFFF"/><circle cx="13" cy="-3" r="2.4" fill="#FFFFFF"/></g>
-  <g transform="translate(1165,242.6) scale(0.7)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFFFFF"/><circle cx="-10" cy="-6" r="3" fill="#FF3D9A"/><circle cx="4" cy="-12" r="3.4" fill="#FF3D9A"/><circle cx="13" cy="-3" r="2.4" fill="#FF3D9A"/></g>
+  <g transform="translate(1158,242.6) scale(0.7)"><rect x="-5" y="0" width="10" height="24" rx="4" fill="#FFF4F9"/><path d="M-24,2 Q0,-30 24,2Z" fill="#FFFFFF"/><circle cx="-10" cy="-6" r="3" fill="#FF3D9A"/><circle cx="4" cy="-12" r="3.4" fill="#FF3D9A"/><circle cx="13" cy="-3" r="2.4" fill="#FF3D9A"/></g>
 
   <!-- Little flowers on the hills -->
   <g fill="#FFFFFF">
@@ -127,4 +123,5 @@
 
   <!-- Title -->
   <text x="600" y="160" text-anchor="middle" font-family="'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-style="italic" font-weight="700" font-size="64" fill="#FFFFFF" filter="url(#titleShadow)">Hi, I'm Éléa</text>
+  </g>
 </svg>
